@@ -1,1 +1,4 @@
-DBSECRET = "database-secret"
+MYSQL_HOST="host"
+MYSQL_ADMIN_USERNAME="username"
+MYSQL_ADMIN_PASSWORD="mysql-password"
+SECRET="secret"
