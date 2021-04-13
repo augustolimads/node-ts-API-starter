@@ -1,4 +1,4 @@
-MYSQL_HOST="host"
-MYSQL_ADMIN_USERNAME="username"
-MYSQL_ADMIN_PASSWORD="mysql-password"
+BD_HOST="host"
+BD_USERNAME="username"
+BD_PASSWORD="mysql-password"
 SECRET="secret"

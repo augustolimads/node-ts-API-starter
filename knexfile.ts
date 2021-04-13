@@ -1,9 +1,12 @@
 import path from 'path';
+require("dotenv").config();
 
 module.exports = {
     client: 'mysql2',
     connection:{
-        filename: path.resolve(__dirname, 'src', 'database', 'database.mysql2')
+        user : process.env.BD_USERNAME,
+        password : process.env.BD_PASSWORD,
+        database : 'api-user'
     },
     migrations: {
         directory: path.resolve(__dirname, 'src', 'database', 'migrations')
